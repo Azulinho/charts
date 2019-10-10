@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  fluentd-graylog:
+  - appVersion: v0.12.43-debian-graylog
+    created: "2019-10-10T10:05:48.560511995+01:00"
+    description: A Fluentd Graylog Helm chart for Kubernetes.
+    digest: 01180a79fdb82d24ad5461992c05c64c70d59cea96250421e40ee9e2e164c10a
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - graylog
+    - logging
+    maintainers:
+    - email: jlmadushan@gmail.com
+      name: madushan1000
+    name: fluentd-graylog
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - fluentd-graylog-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-10-10T10:05:48.559411675+01:00"
